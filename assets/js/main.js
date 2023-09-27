@@ -252,9 +252,13 @@
     $('<div class="close">Close</div>')
       .appendTo($this)
       .on("click", function () {
-        location.hash = ["#helen", "#sitso", "#duukuw", "#exodus"].includes(
-          location.hash
-        )
+        location.hash = [
+          "#helen",
+          "#sitso",
+          "#duukuw",
+          "#exodus",
+          "#cubicle",
+        ].includes(location.hash)
           ? "#hobbies"
           : "";
       });
